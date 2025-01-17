@@ -12,7 +12,7 @@ with col1:
 
 with col2:
     st.title('Ian Temchin', anchor=False)
-    st.caption('B.S. Environmental Science, 2010')
+    st.caption('B.S. Environmental Science')
     st.write(
         'Skilled environmental scientist and data analyst, bridging the gap from idea to insight, and delivering informed solutions in any context.'
     )
