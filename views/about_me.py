@@ -72,7 +72,7 @@ with data:
     st.markdown('''- A decade of practical experience managing, analyzing, and reporting on large environmental data sets.                
 - Three years experience as the general manager of a b2b agricultural wholesale production facilty, providing operational, production, and wholesale business analytics directly to the C-Suite.                
 - Demonstrated expertise in statistical principles applied to sampling design and data analysis.                
-- Proven leader, driven by data to empower teams delivering successful project outcomes and improved operations without compromising safety, quality, efficiency, or regulatory compliance.
+- Proven leader, driven by data to empower teams delivering successful project outcomes and improved operations.
 ''')
     
     
