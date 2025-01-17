@@ -39,7 +39,7 @@ pg = st.navigation(
      'Projects': [portfolio2]}
 )
 
-st.sidebar.text('This site was coded in Python by Ian Temchin')
+st.sidebar.text('© 2025 Ian Temchin. All rights reserved.')
 
 pg.run()
 
