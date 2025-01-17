@@ -38,5 +38,8 @@ pg = st.navigation(
     {'About Me': [home, poker],
      'Projects': [portfolio2]}
 )
+
+st.sidebar.text('This site was coded in Python by Ian Temchin')
+
 pg.run()
 
