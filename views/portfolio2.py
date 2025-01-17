@@ -7,7 +7,7 @@ import numpy as np
 from datetime import timedelta
 import datetime as dt
 
-st.title('Sales Dashboard 📊')
+st.header('Sales Dashboard 📊')
 
 
 # --- Function Defs ---

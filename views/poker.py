@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title('Poker Statistics 🃏')
+st.header('Poker Statistics 🃏')
 
 col1, col2, col3, col4 = st.columns(4, gap='large')
 with col1:
