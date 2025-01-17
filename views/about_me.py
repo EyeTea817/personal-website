@@ -79,7 +79,7 @@ with data:
     st.subheader('Technical Skills')
     st.write('''
              - Programming: Python, Google Apps Script, VBA
-             - Data Analysis: SQL, pandas, Earthsoft EQuIS
+             - Data Analysis: SQL, pandas, Earthsoft EQuIS, Excel/Google Sheets
              - Data Visualization: Matplotlib, seaborn, MS Excel, ESRI ArcMap
              - Modeling and Statistical Analysis
 ''')
