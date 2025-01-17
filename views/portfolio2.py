@@ -271,8 +271,8 @@ with tab3:
         sales_pivot.plot(kind='bar', stacked=True, ax=ax, cmap='Set3', width=0.8)
         # Title and Labels
         ax.set_title('Sales Performance by Product Line per Category', fontsize=14, weight='bold', color='#333333')
-        ax.set_xlabel('Product Category', fontsize=12)
-        ax.set_ylabel('Line Item Total ($)', fontsize=12)
+        #ax.set_xlabel('Product Category', fontsize=12)
+        #ax.set_ylabel('Line Item Total ($)', fontsize=12)
         # Format y-axis as currency
         ax.yaxis.set_major_formatter(plt.FuncFormatter(lambda x, _: f"${x:,.0f}"))
         # Rotate x-axis labels for readability
