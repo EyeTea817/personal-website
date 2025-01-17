@@ -31,6 +31,7 @@ with col2:
 st.write('\n')
 env, data =st.tabs(['Environmental Remediation', 'Data Analysis'])
 with env:
+    st.subheader('Experience')
     st.markdown('''- A decade of experience planning and implementing investigation and remediation of contaminated sites. Strong foundations in field work with excellent project management and data analysis skills.        
 - Five years experience managing complex munitions response sites in remote locations contaminated with high-explosives and chemical warfare materiel.                
 - Specialize in management and analysis of environmental data including field data and analytical chemistry reports.
