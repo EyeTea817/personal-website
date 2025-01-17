@@ -321,7 +321,7 @@ with tab4:
             fig, ax = plt.subplots(figsize=(10, 6))
             ax.barh(customer_sales_summary['Customer'], customer_sales_summary['total_sales_numeric'], color='#53A2BE')
             ax.set_xlabel('Total Sales')
-            
+            ax.xaxis.set_major_formatter(plt.FuncFormatter(lambda x, _: f"${x:,.0f}"))
             # Remove spines
             ax.spines['top'].set_visible(False)
             ax.spines['right'].set_visible(False)        
