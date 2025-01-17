@@ -31,7 +31,7 @@ def format_large_number(value):  # Format large numbers
 
 
 # --- Import & Clean Data ---
-sales_df = pd.read_csv(r'G:\My Drive\Python\personal website\assets\salesDF.csv')
+sales_df = pd.read_csv(r'.\assets\salesDF.csv')
 sales_df = sales_df.drop(sales_df.columns[0], axis=1)
 # Convert the 'Order Received' and 'Order Delivered' columns directly to datetime
 sales_df['order_date'] = pd.to_datetime(sales_df['order_date'])
