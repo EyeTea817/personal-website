@@ -8,7 +8,7 @@ def toggle_contact_form():
 
 col1, col2 = st.columns(2, gap='medium', vertical_alignment='bottom')
 with col1:
-    st.image(r'.\assets\IMG_1898-EDIT-EDIT.jpg', use_container_width=True, caption='Grand Canyon, South Rim, April 2024',clamp=False)
+    st.image(r'./assets/IMG_1898-EDIT-EDIT.jpg', use_container_width=True, caption='Grand Canyon, South Rim, April 2024',clamp=False)
 
 with col2:
     st.title('Ian Temchin', anchor=False)
@@ -56,12 +56,12 @@ with env:
              ____
     ''')    
 
-    with open(r'.\assets\Resume_2025_Temchin.docx.pdf','rb') as resume:
+    with open(r'./assets/Resume_2025_Temchin.docx.pdf','rb') as resume:
         pdfbyte = resume.read()
         st.download_button(
             label='📃 Remediation Resume (pdf)', data=pdfbyte, file_name='Temchin Resume, env remediation.pdf',mime='application/octet-stream')
 
-    with open(r'.\assets\Copy of OSHA_40-hour_2011-2012.pdf', 'rb') as hazwoper:
+    with open(r'./assets/Copy of OSHA_40-hour_2011-2012.pdf', 'rb') as hazwoper:
         pdfbyte = hazwoper.read()
         st.download_button(
             label='🪪 40HR HAZWOPER (pdf)', data=pdfbyte, file_name='Temchin HAZWOPER40.pdf',mime='application/octet-stream')
