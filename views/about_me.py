@@ -35,7 +35,6 @@ with env:
     st.markdown('''- A decade of experience planning and implementing investigation and remediation of contaminated sites. Strong foundations in field work with excellent project management and data analysis skills.        
 - Five years experience managing complex munitions response sites in remote locations contaminated with high-explosives and chemical warfare materiel.                
 - Specialize in management and analysis of environmental data including field data and analytical chemistry reports.
-- Proven leader, driven by data to empower teams delivering successful project outcomes and improved operations.
 ''')
     
     st.subheader('Technical Skills & Competencies')
