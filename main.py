@@ -7,6 +7,14 @@ import numpy as np
 st.set_page_config(layout='wide')
 st.title('Ian Temchin')
 
+# Add custom CSS to hide the GitHub icon
+hide_github_icon = """
+#GithubIcon {
+  visibility: hidden;
+}
+"""
+st.markdown(hide_github_icon, unsafe_allow_html=True)
+
 # --- PAGES ---
 home = st.Page(
     page = 'views/about_me.py',
