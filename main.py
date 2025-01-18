@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import matplotlib
 import numpy as np
 
-st.set_page_config(page_title="Ian Temchin", layout="wide")
+st.set_page_config(layout="wide")
 
 st.markdown("""
     <style>
