@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import matplotlib
 import numpy as np
 
-st.set_page_config(page_title="Page Title", layout="wide")
+st.set_page_config(page_title="Ian Temchin", layout="wide")
 
 st.markdown("""
     <style>
@@ -16,7 +16,7 @@ st.markdown("""
 
 
 
-st.title('Ian Temchin')
+
 
 
 
