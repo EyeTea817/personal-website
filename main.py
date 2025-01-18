@@ -4,16 +4,23 @@ import matplotlib.pyplot as plt
 import matplotlib
 import numpy as np
 
-st.set_page_config(layout='wide')
+st.set_page_config(page_title="Page Title", layout="wide")
+
+st.markdown("""
+    <style>
+        .reportview-container {
+            margin-top: -2em;
+        }
+        #MainMenu {visibility: hidden;}
+        .stDeployButton {display:none;}
+        footer {visibility: hidden;}
+        #stDecoration {display:none;}
+    </style>
+""", unsafe_allow_html=True)
+
 st.title('Ian Temchin')
 
-# Add custom CSS to hide the GitHub icon
-hide_github_icon = """
-#GithubIcon {
-  visibility: hidden;
-}
-"""
-st.markdown(hide_github_icon, unsafe_allow_html=True)
+
 
 # --- PAGES ---
 home = st.Page(
