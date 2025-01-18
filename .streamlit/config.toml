@@ -14,3 +14,6 @@ textColor = '#fff'
 
 [client]
 #toolbarMode = 'minimal'
+
+[ui]
+hideTopBar = True
