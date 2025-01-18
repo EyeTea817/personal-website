@@ -8,7 +8,7 @@ def toggle_contact_form():
 
 col1, col2 = st.columns(2, gap='medium', vertical_alignment='bottom')
 with col1:
-    st.image(r'./assets/IMG_1898-EDIT-EDIT.jpg', use_container_width=True, caption='Grand Canyon, South Rim, April 2024',clamp=False)
+    st.image(r'./assets/IMG_1898-EDIT-EDIT.jpg', use_container_width=True,clamp=False)
 
 with col2:
     st.title('Ian Temchin', anchor=False)

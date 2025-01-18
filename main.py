@@ -16,10 +16,6 @@ st.markdown("""
 
 
 
-
-
-
-
 # --- PAGES ---
 home = st.Page(
     page = 'views/about_me.py',
