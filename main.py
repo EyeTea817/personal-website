@@ -14,6 +14,7 @@ hide_streamlit_style = """
                 .streamlit-footer {display: none;}
                 /* Hide your specific div class, replace class name with the one you identified */
                 .st-emotion-cache-uf99v8 {display: none;}
+                .stAppToolbar {display: none;}
             </style>
             """
 
