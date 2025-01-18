@@ -6,6 +6,14 @@ import numpy as np
 
 st.set_page_config(page_title="Page Title", layout="wide")
 
+st.markdown("""
+    <style>
+        #MainMenu {visibility: hidden;}
+        .stAppToolbar {display:none;}
+    </style>
+""", unsafe_allow_html=True)
+
+
 st.title('Ian Temchin')
 
 
