@@ -9,7 +9,7 @@ st.set_page_config(page_title="Page Title", layout="wide")
 st.markdown("""
     <style>
         #MainMenu {visibility: hidden;}
-        .stAppToolbar {display:none;}
+        #AppToolbar {visibility: hidden;}
     </style>
 """, unsafe_allow_html=True)
 
