@@ -8,7 +8,7 @@ st.set_page_config(page_title="Page Title", layout="wide")
 
 st.markdown("""
     <style>
-        .css-1v0mbdj {
+        .stAppToolbar {
             display: none;
         }
     </style>
