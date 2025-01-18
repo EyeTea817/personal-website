@@ -15,6 +15,7 @@ hide_streamlit_style = """
                 /* Hide your specific div class, replace class name with the one you identified */
                 .st-emotion-cache-uf99v8 {display: none;}
                 .stAppToolbar {display: none;}
+                #GithubIcon { visibility: hidden;}
             </style>
             """
 
