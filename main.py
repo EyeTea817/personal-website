@@ -6,20 +6,14 @@ import numpy as np
 
 st.set_page_config(page_title="Page Title", layout="wide")
 
-hide_streamlit_style = """
-            <style>
-                /* Hide the Streamlit header and menu */
-                header {visibility: hidden;}
-                /* Optionally, hide the footer */
-                .streamlit-footer {display: none;}
-                /* Hide your specific div class, replace class name with the one you identified */
-                .st-emotion-cache-uf99v8 {display: none;}
-                .stAppToolbar {display: none;}
-                #GithubIcon { visibility: hidden;}
-            </style>
-            """
+st.markdown("""
+    <style>
+        .css-1v0mbdj {
+            display: none;
+        }
+    </style>
+""", unsafe_allow_html=True)
 
-st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
 
 st.title('Ian Temchin')
