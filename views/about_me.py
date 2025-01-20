@@ -45,6 +45,7 @@ with env:
              - Environmental Sample Collection
              - Environmental, Geophysical, and Geotechnical Data Collection
              - Data Visualization, Modeling, and Statistical Analysis
+             - Geospatial Analysis: QGIS, ArcGIS
              - NJ CSSR (N.J.A.C 7:26C-E), CERCLA, DERP-FUDS MMRP
              ''')
 
