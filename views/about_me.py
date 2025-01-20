@@ -44,8 +44,7 @@ with env:
              - Site Management, Contractor Oversight, Team Leadership
              - Environmental Sample Collection
              - Environmental, Geophysical, and Geotechnical Data Collection
-             - Data Visualization, Modeling, and Statistical Analysis
-             - Geospatial Analysis: QGIS, ArcGIS
+             - Data Visualization, Modeling, Statistical Analysis, and Geospatial Data Analysis
              - NJ CSSR (N.J.A.C 7:26C-E), CERCLA, DERP-FUDS MMRP
              ''')
 
@@ -80,7 +79,7 @@ with data:
     st.write('''
              - Programming: Python, Google Apps Script, VBA
              - Data Analysis: SQL, pandas, Earthsoft EQuIS, Excel/Google Sheets
-             - Data Visualization: Matplotlib, seaborn, MS Excel, ESRI ArcMap
+             - Data Visualization: Matplotlib, seaborn, ArcGIS, QGIS, MS Excel, Tableau, PowerBI
              - Modeling and Statistical Analysis
 ''')
     st.subheader('Certifications')
