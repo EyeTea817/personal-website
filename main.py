@@ -44,7 +44,7 @@ portfolio2 = st.Page(
 
 # --- SIDEBAR NAVIGATION ---
 pg = st.navigation(
-    {'About Me': [home, poker],
+    {'About Me': [home],
      'Projects': [portfolio2]}
 )
 
